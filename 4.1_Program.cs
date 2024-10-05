@@ -41,7 +41,7 @@ namespace vibration_device
         private static DeviceClient s_deviceClient;
 
         // The device connection string to authenticate the device with your IoT hub.
-        private readonly static string s_deviceConnectionString = "HostName=VibrationSensorHub-220080187.azure-devices.net;DeviceId=VibrationSensorID;SharedAccessKey=JtNYdTPmZr7krYYijxulx+udBLm+62XW3kleK2pyo1A=";
+        private readonly static string s_deviceConnectionString = "<connection string>";
 
         private static void colorMessage(string text, ConsoleColor clr)
         {
